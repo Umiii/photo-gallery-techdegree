@@ -3,3 +3,60 @@
 * Author: Umi Ikem
 * March 16th 2017
 */
+
+
+/*************************
+*******Typography******
+**************************/
+
+
+body {
+    font-family: 'Raleway', sans-serif;
+    color:#617383;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+/*************************
+***** Structural Styles ***
+**************************/
+
+* {
+    box-sizing: border-box;
+}
+
+ul li {
+    list-style: none;
+}
+
+a {
+    -webkit-transition: 300ms;
+    -moz-transition: 300ms;
+    -o-transition: 300ms;
+    transition: 300ms;
+    text-decoration: none;
+
+}
+
+
+i:hover, a:hover {
+    outline: none;
+    text-decoration:none;
+}
+
+.container {
+    max-width:90%;
+    margin:0 auto;
+}
+
+.center {
+    text-align: center;
+}
+
+
+/**********************************
+**** Header & Navigation Styles ***
+**********************************/
