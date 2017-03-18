@@ -132,3 +132,8 @@ i:hover, a:hover {
     cursor:pointer;
 }
 
+.pswp__caption {
+    top:69%;
+    bottom:unset;
+}
+

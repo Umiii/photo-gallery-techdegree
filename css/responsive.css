@@ -22,4 +22,15 @@
     .overlay {
         opacity:0;
     }
+
+    .pswp__caption {
+        top:90%;
+        bottom:0;
+    }
+
+    .pswp__caption__center  {
+        max-width:550px;
+        font-size:0.9rem;
+        color:white;
+    }
 }

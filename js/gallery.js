@@ -10,13 +10,15 @@ $(document).ready(function() {
                 $pic.find('a').each(function() {
                     var $href   = $(this).attr('href'),
                         $size   = $(this).data('size').split('x'),
+                        $title = $(this).find('img').attr('alt'),
                         $width  = $size[0],
                         $height = $size[1];
 
                     var item = {
                         src : $href,
                         w   : $width,
-                        h   : $height
+                        h   : $height,
+                        title : $title
                     }
 
                     items.push(item);
@@ -28,7 +30,7 @@ $(document).ready(function() {
 
 
         var $pswp = $('.pswp')[0];
-        $pic.on('click', 'div', function(event) {
+        $pic.on('click', 'li', function(event) {
             event.preventDefault();
 
             var $index = $(this).index();
