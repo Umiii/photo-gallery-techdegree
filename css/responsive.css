@@ -1,8 +1,14 @@
 @media only screen and  (min-width: 768px) {
 
+    .gallery-list {
+        padding:0;
+    }
+
     .gallery-list > li {
         margin-right: 4rem;
-        max-width:20%;
+        margin-left:2rem;
+        display:inline-block;
+        max-width:100%;
     }
 
     .gallery-list > li:nth-child(4n + 4) {
@@ -11,5 +17,9 @@
 
     .gallery-container > input {
         width: 35%;
+    }
+
+    .overlay {
+        opacity:0;
     }
 }
