@@ -1,0 +1,15 @@
+@media only screen and  (min-width: 768px) {
+
+    .gallery-list > li {
+        margin-right: 4rem;
+        max-width:20%;
+    }
+
+    .gallery-list > li:nth-child(4n + 4) {
+        margin-right: 0;
+    }
+
+    .gallery-container > input {
+        width: 35%;
+    }
+}
