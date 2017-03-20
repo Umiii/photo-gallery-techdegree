@@ -137,3 +137,7 @@ i:hover, a:hover {
     bottom:unset;
 }
 
+.pswp__caption__center  {
+    color:white;
+}
+
