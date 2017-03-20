@@ -5,15 +5,11 @@
     }
 
     .gallery-list > li {
-        margin-right: 4rem;
-        margin-left:2rem;
+        margin-right: 1.3rem;
         display:inline-block;
         max-width:100%;
     }
 
-    .gallery-list > li:nth-child(4n + 4) {
-        margin-right: 0;
-    }
 
     .gallery-container > input {
         width: 35%;
@@ -33,4 +29,15 @@
         font-size:0.9rem;
         color:white;
     }
+}
+
+
+@media only screen and  (min-width: 1024px) {
+
+    .gallery-list > li {
+        margin-right: 4rem;
+        margin-left:2rem;
+        max-width:100%;
+    }
+
 }

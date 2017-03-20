@@ -89,7 +89,7 @@ i:hover, a:hover {
 .gallery-list > li {
     position:relative;
     display: block;
-    max-width:75%;
+    width:200px;
     margin:3rem auto;
     vertical-align: top;
 }
