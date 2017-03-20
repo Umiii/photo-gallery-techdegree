@@ -132,4 +132,6 @@ i:hover, a:hover {
     cursor:pointer;
 }
 
-
+.pswp__caption__center {
+    color:white;
+}
