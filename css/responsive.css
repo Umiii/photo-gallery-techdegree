@@ -5,9 +5,11 @@
     }
 
     .gallery-list > li {
-        margin-right: 1.3rem;
         display:inline-block;
-        max-width:100%;
+        max-width:25%;
+        padding-right:0.8rem;
+        padding-left:0.8rem;
+        margin-right:-4px;
     }
 
 
@@ -23,15 +25,23 @@
         max-width:570px;
         color:white
     }
-}
 
+    .overlay > div {
+        max-width: 170px;
+    }
+}
 
 @media only screen and  (min-width: 1024px) {
 
-    .gallery-list > li {
-        margin-right: 4rem;
-        margin-left:2rem;
-        max-width:100%;
+    .gallery-center {
+        max-width: 82%;
+        margin:0 auto;
+    }
+
+    .overlay > div {
+        max-width: 174px;
     }
 
 }
+
+
